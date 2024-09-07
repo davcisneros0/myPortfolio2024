@@ -5,5 +5,8 @@
 }
 
 body {
-    background-color: green;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(109, 109, 109);
+    background-color: rgb(235, 235, 235);
 }
+
