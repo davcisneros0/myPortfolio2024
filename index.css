@@ -17,6 +17,7 @@ nav {
     justify-content: space-between;
 }
 
+
 /*MENU WHEN USER PRESSES HAMBURGER MENU*/
 /*FOR MOBILE DEVICES / SMALLER SCREENS*/
 nav .mainMenu {
@@ -71,7 +72,7 @@ nav .mainMenu .closeMenu {
     right: 15px;
 }
 
-/*******FOR INDEX.HTML******/
+/*******FOR INDEX.HTML******/ /*******FOR INDEX.HTML******/ /*******FOR INDEX.HTML******/ 
 
 #intro {
     /* display: none; */
