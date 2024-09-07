@@ -70,3 +70,59 @@ nav .mainMenu .closeMenu {
     top: 10px;
     right: 15px;
 }
+
+/*******FOR INDEX.HTML******/
+
+#intro {
+    /* display: none; */
+    position: absolute;
+    left: 2%;
+    top: 35%;
+    width: 45%;
+}
+
+#intro h2 {
+    font-size: 2.2em;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+hr {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 45%;
+    margin-left: 25%;
+}
+
+#intro p {
+    color: rgb(224,224,244);
+    margin-top: 2%;
+    text-shadow: 1px 1px 2px black;
+}
+
+#after-intro-button1, #after-intro-button2 {
+    background-color: rgb(13, 13, 124);
+    color: white;
+    overflow: visible;
+    border: 1px solid rgba(238,232,255,0.57);
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 1.5em 5em;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#after-intro-button1 a, #after-intro-button2 a {
+    color: white;
+    text-decoration: none;
+}
+
+#after-intro-button1:hover, #after-intro-button2:hover {
+    border: 1px solid white;
+    transition: 0.5s;
+    background-color: rgb(61, 61, 175);
+}
+
+
