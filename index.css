@@ -17,6 +17,10 @@ nav {
     justify-content: space-between;
 }
 
+h3 {
+    font-size: 2em;
+    font-weight: bolder;
+}
 
 /*MENU WHEN USER PRESSES HAMBURGER MENU*/
 /*FOR MOBILE DEVICES / SMALLER SCREENS*/
@@ -198,10 +202,10 @@ hr {
     justify-content: center;
     align-items: center;
     scale: 1; 
-    opacity: 0; 
-    animation: fade-in linear forwards;
+    opacity: 1; 
+    /* animation: fade-in linear forwards;
     animation-timeline: view();
-    animation-range: 20px 300px;
+    animation-range: 20px 300px; */
 }
 
 @keyframes fade-in {
@@ -247,3 +251,32 @@ hr {
 
 
 /*******FOR ABOUT.HTML******/ /*******FOR ABOUT.HTML******/ /*******FOR ABOUT.HTML******/ 
+
+.skills {
+    background-color: red;
+    display: flex;
+    text-align: left;
+    gap: 10em;
+    padding: 1%;
+}
+
+.skills ul {
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    align-items: baseline;
+    color: white;
+    background-color: rgb(0, 255, 170);
+}
+
+.skills ul li {
+    display: flex;
+    gap: 0.5em;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+}
+
+.skills ul li:hover {
+    transform: translateX(10px);
+}
