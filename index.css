@@ -173,3 +173,48 @@ hr {
     margin-left: 10%;
     border-radius: 35%;
 }
+
+.about {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 8%;
+    gap: 8em;
+}
+
+.about-content h2 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    margin-bottom: 2%;
+}
+
+.about-content p {
+    margin: 2em;
+}
+
+#about-button {
+    background-color: #d9e1ea;
+    color: white;
+    overflow: visible;
+    border: 1px solid rgba(11, 11, 11, 0.57);
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 2%;
+    margin-left: 2%; 
+    padding: 1.2em 5em;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#about-button a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#about-button:hover {
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.5s ease;
+    background-color: #9ca1a7;
+}
