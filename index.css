@@ -20,6 +20,7 @@ nav {
 h3 {
     font-size: 2em;
     font-weight: bolder;
+    border-bottom: 1px solid white;
 }
 
 /*MENU WHEN USER PRESSES HAMBURGER MENU*/
@@ -161,7 +162,6 @@ hr {
 
 .home-content {
     max-width: 800px;
-    /* background-color: rgb(0, 0, 0);  */
     padding: 2%;
 }
 
@@ -253,27 +253,25 @@ hr {
 /*******FOR ABOUT.HTML******/ /*******FOR ABOUT.HTML******/ /*******FOR ABOUT.HTML******/ 
 
 .skills {
-    background-color: red;
     display: flex;
     text-align: left;
-    gap: 10em;
+    gap: 5em;
     padding: 1%;
 }
 
 .skills ul {
-    font-size: 1.3em;
+    font-size: 1.5em;
     display: flex;
     flex-direction: column;
     opacity: 0.8;
     align-items: baseline;
     color: white;
-    background-color: rgb(0, 255, 170);
 }
 
 .skills ul li {
     display: flex;
     gap: 0.5em;
-    font-size: 1.2em;
+    font-size: 1em;
     transition: 0.3s ease-in-out;
 }
 
