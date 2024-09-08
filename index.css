@@ -74,23 +74,23 @@ nav .mainMenu .closeMenu {
 
 /*******FOR INDEX.HTML******/ /*******FOR INDEX.HTML******/ /*******FOR INDEX.HTML******/ 
 
-#intro-container {
+/* #intro-container {
     background-color: green;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* min-width: 300vh; */
+    /* min-width: 300vh; 
     
 }
 
 #intro {
-    /* display: none; */
+    /* display: none; 
     position: absolute; 
     left: 3%;
     top: 35%;  
     width: 45%; 
     padding: 1%;
-    /* min-width: 100vh; */
+    /* min-width: 100vh; 
     background-color: red;
 }
 
@@ -111,7 +111,7 @@ hr {
     color: rgb(224,224,244);
     margin-top: 2%;
     text-shadow: 1px 1px 2px black;
-}
+}*/
 
 #after-intro-button1, #after-intro-button2 {
     background-color: #d9e1ea;
@@ -136,7 +136,7 @@ hr {
     border: 1px solid rgb(255, 255, 255);
     transition: 0.5s ease;
     background-color: #9ca1a7;
-}
+} 
 
 
 .home {
@@ -176,12 +176,31 @@ hr {
 
 .about {
     background-color: black;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     padding: 5% 8%;
     gap: 8em;
+    font-size: 1.2em;
+    border-top: 3px solid #e5e5e5;
 }
+
+.about-content { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scale: 1; 
+    opacity: 0; 
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 20px 300px;
+}
+
+@keyframes fade-in {
+    to { scale: .95; opacity: 1}
+} 
+
 
 .about-content h2 {
     text-align: center;
@@ -192,6 +211,7 @@ hr {
 
 .about-content p {
     margin: 2em;
+    letter-spacing: 1px;
 }
 
 #about-button {
@@ -201,9 +221,8 @@ hr {
     border: 1px solid rgba(11, 11, 11, 0.57);
     font-weight: 400;
     letter-spacing: 1px;
-    margin-top: 2%;
     margin-left: 2%; 
-    padding: 1.2em 5em;
+    padding: 1.5em 7em;
     cursor: pointer;
     border-radius: 8px;
 }
