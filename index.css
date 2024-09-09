@@ -336,17 +336,20 @@ hr {
 }
 
 .portfolio-item {
-    overflow: hidden;
+    /* overflow: hidden; */
     cursor: auto;
 }
 
 .portfolio-item figcaption {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding: 1%;
     border-radius: 0px 0px 15px 15px;
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .portfolio-image {
