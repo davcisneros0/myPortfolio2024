@@ -287,14 +287,14 @@ hr {
     align-items: center;
     width: 100vw;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(800px, 800px));
+    grid-template-columns: repeat(auto-fill, minmax(800px, 500px));
     column-gap: 15px;
     row-gap: 10px;
 }
 
 .project-gallery-image {
     width: 800px;
-    height: 800px;
+    height: 500px;
     object-fit: cover;
     object-position: center;
     border: 0.05px solid lightgray;
