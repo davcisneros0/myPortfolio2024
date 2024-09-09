@@ -18,7 +18,7 @@ nav {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 2.3em;
     font-weight: bolder;
     border-bottom: 1px solid white;
 }
@@ -150,6 +150,26 @@ hr {
     background-color: #9ca1a7;
 } 
 
+.homepage-main::after,
+.homepage-main::before {
+    position: absolute;
+    content: '';
+    width: 140px;
+    height: 140px;
+    background-color: #25253a;
+    bottom: -5em;
+}
+
+.homepage-main::before {
+    right: 50%;
+    transform: skew(0, 20deg);
+    z-index: 5;
+}
+
+.homepage-main::after {
+    left: 50%;
+    transform: skew(0, -20deg);
+} 
 
 .home {
     width: 100%;
@@ -182,7 +202,7 @@ hr {
 .image-box img {
     width: 520px;
     margin-left: 10%;
-    border-radius: 35%;
+    clip-path: polygon(0px 100px, 100% 0, 100% 100%, 0 100%);
 }
 
 .about {
@@ -193,7 +213,6 @@ hr {
     padding: 5% 8%;
     gap: 8em;
     font-size: 1.2em;
-    border-top: 3px solid #b7d2ff;
 }
 
 .about-content { 
@@ -278,6 +297,7 @@ hr {
 .skills ul li:hover {
     transform: translateX(10px);
 }
+
 
 /*******FOR PROJECTS.HTML******/ /*******FOR PROJECTS.HTML******/ /*******FOR PROJECTS.HTML******/
 
