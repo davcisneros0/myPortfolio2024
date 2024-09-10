@@ -370,43 +370,14 @@ hr {
 
 /*******FOR SKILLS.HTML******/ /*******FOR SKILLS.HTML******/ /*******FOR SKILLS.HTML******/
 
-/* .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: green;
-}
-
-.frontend-skills {
-    flex-wrap: wrap;
-}
-
-.frontend-skills p {
-    display: inline;
-    border-radius: 0.5em;
-    flex-grow: 20;
-    padding: 1em;
-    background-color: lightgrey;
-    margin: 1%;
-}
-
-.frontend-skills img {
-    padding: 0;
-    margin: 0;
-}
-.wrapper {
-    border-radius: 1em;
-} */
-
 .services {
     padding: 5em 0 2.5em 0;
 }
 
-.services > .text {
-    width: 70%;
-    background-color: red;
-    margin: 1.5em auto;
+.services .title {
+    font-size: 2.5em;
     text-align: center;
+    padding-bottom: 2%;
 }
 
 .services .row {
@@ -419,7 +390,6 @@ hr {
     padding: 1.5em 0 3em 0;
     background-color: #151521;
     margin: 1.5em 0;
-    cursor: pointer;
     flex: 0 0 calc(50% - 2em);
     margin: 1em;
 }
@@ -433,31 +403,16 @@ hr {
     position: relative;
     text-transform: uppercase;
 }
-/* 
-.services .item h2::after {
-    content: '';
-    bottom: 0;
-    width: 50px;
-    height: 0.5px;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    background-color: blue;
-} */
 
 .services .item:hover {
     background-color: #08080c;
     transition: 0.2s ease-in;
 }
 
-.services .btn {
-    margin: 2.5em auto 1.5em auto;
-    display: block;
-    background-color: #d9e1ea;
-    color: rgb(0, 0, 0);
-    border: 1px solid rgba(11, 11, 11, 0.57);
-    letter-spacing: 1px;
-    padding: 1.5em 5em;
-    cursor: pointer;
-    border-radius: 8px;
+.row ul {
+    list-style-type: none;
+}
+
+.row ul li {
+    padding: 1%;
 }
