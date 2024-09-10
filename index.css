@@ -23,9 +23,12 @@ h3 {
     border-bottom: 1px solid white;
 }
 
+
+/**FOOTER THAT WILL BE APPLIED FOR EACH PAGE**/
 footer {
     background-color: #000000;
     color: white;
+    border-top: 1px solid rgb(49, 49, 49);
 }
 
 .footer-container {
@@ -50,6 +53,46 @@ footer {
 .socials-icons a i {
     font-size: 1.7em;
 }
+
+.socials-icons a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.footer-bottom {
+    margin: 1% 0;
+}
+
+.footer-bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer-bottom ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 2em;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .footer-bottom ul {
+        margin-top: 5%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-bottom ul li {
+        margin: 4%;
+    }
+
+}
+
+
 
 /*MENU WHEN USER PRESSES HAMBURGER MENU*/
 /*FOR MOBILE DEVICES / SMALLER SCREENS*/
