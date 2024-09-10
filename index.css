@@ -23,6 +23,34 @@ h3 {
     border-bottom: 1px solid white;
 }
 
+footer {
+    background-color: #000000;
+    color: white;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 2%;
+}
+
+.socials-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.socials-icons a {
+    text-decoration: none;
+    padding: 0.5%;
+    background-color: white;
+    margin: 2%;
+    border-radius: 40%;
+    color: black;
+}
+
+.socials-icons a i {
+    font-size: 1.7em;
+}
+
 /*MENU WHEN USER PRESSES HAMBURGER MENU*/
 /*FOR MOBILE DEVICES / SMALLER SCREENS*/
 nav .mainMenu {
@@ -268,6 +296,27 @@ hr {
     background-color: #9ca1a7;
 }
 
+.about-content::after,
+.about-content::before {
+    position: absolute;
+    content: '';
+    width: 140px;
+    height: 140px;
+    background-color: #13131e;
+    bottom: -6em;
+}
+
+.about-content::before {
+    right: 50%;
+    transform: skew(0, 20deg);
+    z-index: -4;
+}
+
+.about-content::after {
+    left: 50%;
+    transform: skew(0, -20deg);
+    z-index: -4;
+} 
 
 /*******FOR ABOUT.HTML******/ /*******FOR ABOUT.HTML******/ /*******FOR ABOUT.HTML******/ 
 
