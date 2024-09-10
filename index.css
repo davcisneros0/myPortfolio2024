@@ -114,45 +114,6 @@ nav .mainMenu .closeMenu {
 
 /*******FOR INDEX.HTML******/ /*******FOR INDEX.HTML******/ /*******FOR INDEX.HTML******/ 
 
-/* #intro-container {
-    background-color: green;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* min-width: 300vh; 
-    
-}
-
-#intro {
-    /* display: none; 
-    position: absolute; 
-    left: 3%;
-    top: 35%;  
-    width: 45%; 
-    padding: 1%;
-    /* min-width: 100vh; 
-    background-color: red;
-}
-
-#intro h2 {
-    font-size: 2.2em;
-    color: white;
-    text-shadow: 1px 1px 2px black;
-}
-
-hr {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 45%;
-    margin-left: 25%;
-}
-
-#intro p {
-    color: rgb(224,224,244);
-    margin-top: 2%;
-    text-shadow: 1px 1px 2px black;
-}*/
-
 #after-intro-button1, #after-intro-button2 {
     background-color: #d9e1ea;
     color: white;
@@ -183,7 +144,7 @@ hr {
     position: absolute;
     content: '';
     width: 140px;
-    height: 140px;
+    height: 40px;
     background-color: #25253a;
     bottom: -5em;
 }
@@ -296,27 +257,6 @@ hr {
     background-color: #9ca1a7;
 }
 
-.about-content::after,
-.about-content::before {
-    position: absolute;
-    content: '';
-    width: 140px;
-    height: 140px;
-    background-color: #13131e;
-    bottom: -6em;
-}
-
-.about-content::before {
-    right: 50%;
-    transform: skew(0, 20deg);
-    z-index: -4;
-}
-
-.about-content::after {
-    left: 50%;
-    transform: skew(0, -20deg);
-    z-index: -4;
-} 
 
 /*******FOR ABOUT.HTML******/ /*******FOR ABOUT.HTML******/ /*******FOR ABOUT.HTML******/ 
 
@@ -350,25 +290,6 @@ hr {
 
 /*******FOR PROJECTS.HTML******/ /*******FOR PROJECTS.HTML******/ /*******FOR PROJECTS.HTML******/
 
-/* .project-gallery-container {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(800px, 500px));
-    column-gap: 15px;
-    row-gap: 10px;
-}
-
-.project-gallery-image {
-    width: 800px;
-    height: 500px;
-    object-fit: cover;
-    object-position: center;
-    border: 0.05px solid lightgray;
-} */
-
 #projects-header h2 {
     margin-bottom: 1em;
 }
@@ -385,7 +306,6 @@ hr {
 }
 
 .portfolio-item {
-    /* overflow: hidden; */
     cursor: auto;
 }
 
@@ -410,12 +330,6 @@ hr {
     object-fit: cover;
     object-position: center;
 }
-/* 
-.portfolio-image:hover {
-    transform: scale(1.2);
-    opacity: .75;
-} */
-
 
 /*******FOR SKILLS.HTML******/ /*******FOR SKILLS.HTML******/ /*******FOR SKILLS.HTML******/
 
