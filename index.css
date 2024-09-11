@@ -457,3 +457,35 @@ nav .mainMenu .closeMenu {
 .contact-form {
     background-color: orange;
 }
+
+form {
+    padding: 2%;
+    z-index: 2;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+
+.input-container {
+    position: relative;
+    margin: 2%;
+}
+
+.input {
+    width: 100%;
+    padding: 2% 1.2%;
+    border: 2px solid white;
+    background-color: transparent;
+    outline: none;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+}
+
+
+textarea {
+    padding: 1%;
+    min-height: 160px;
+    border-radius: 20px;
+    resize: none;
+    overflow-y: none;
+}
