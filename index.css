@@ -345,7 +345,6 @@ nav .mainMenu .closeMenu {
     column-gap: 15px;
     row-gap: 20px;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .portfolio-item {
@@ -445,20 +444,41 @@ nav .mainMenu .closeMenu {
     max-width: 920px;
     /* height: 80vh; */
     border-radius: 10px;
-    z-index: 1;
+    z-index: 0; 
 }
 
 .contact-info {
     background-color: rgb(24, 24, 24);
     position: relative;
+    padding: 2.5em;
+}
+
+.contact-info h3 {
+    text-align: center;
+}
+
+.contact-info .text {
+    margin: 1em 0 1.2em 0;
+    text-align: center;
+}
+
+.contact-info .information {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 1em;
 }
 
 .contact-form {
     background-color: rgb(24, 24, 24);
 }
 
+.contact-form h3 {
+    text-align: center;
+}
+
 form {
-    padding: 2%;
+    padding: 3%;
     z-index: 2;
     overflow: hidden;
     position: relative;
@@ -478,6 +498,7 @@ form {
     outline: none;
     letter-spacing: 0.5px;
     border-radius: 10px;
+    color: white;
 }
 
 
@@ -491,10 +512,10 @@ textarea {
 
 .submit-btn {
     padding: 0.6em 1.4em;
-    background-color: #d9e1ea;
+    background-color: transparent;
     color: white;
     overflow: visible;
-    border: 1px solid rgba(11, 11, 11, 0.57);
+    border: 2px solid rgb(255, 255, 255);
     letter-spacing: 1px;
     margin-left: 2%; 
     padding: 1.5em 7em;
@@ -506,4 +527,9 @@ textarea {
     border: 1px solid rgb(255, 255, 255);
     transition: 0.5s ease;
     background-color: #9ca1a7;
+}
+
+.icon {
+    font-size: 2.1em;
+    margin-right: 0.3em;
 }
