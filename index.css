@@ -487,12 +487,12 @@ form {
 
 .input-container {
     position: relative;
-    margin: 2%;
+    margin: 3%;
 }
 
 .input {
     width: 100%;
-    padding: 2% 1.2%;
+    padding: 2.5% 1.4%;
     border: 2px solid white;
     background-color: transparent;
     outline: none;
@@ -501,6 +501,10 @@ form {
     color: white;
 }
 
+.input:hover {
+    background-color: rgb(108, 108, 108);
+    transition: 0.2s ease-in-out;
+}
 
 textarea {
     padding: 1%;
