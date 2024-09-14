@@ -127,7 +127,7 @@ nav .mainMenu li a {
     text-transform: uppercase;
     color: white;
     font-size: 2em;
-    /* border: 1px solid white;  */
+
 }
 
 nav .mainMenu li a:hover {
@@ -238,9 +238,6 @@ nav .mainMenu .closeMenu {
 
 .about {
     background-color: #13131e;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     padding: 5% 8%;
     gap: 8em;
     font-size: 1.2em;
@@ -253,9 +250,6 @@ nav .mainMenu .closeMenu {
     align-items: center;
     scale: 1; 
     opacity: 1; 
-    /* animation: fade-in linear forwards;
-    animation-timeline: view();
-    animation-range: 20px 300px; */
 }
 
 @keyframes fade-in {
