@@ -520,14 +520,13 @@ textarea {
     overflow: visible;
     border: 2px solid rgb(255, 255, 255);
     letter-spacing: 1px;
-    margin-left: 2%; 
+    margin-left: 3%; 
     padding: 1.5em 7em;
     cursor: pointer;
     border-radius: 8px;
 }
 
 .submit-btn:hover {
-    border: 1px solid rgb(255, 255, 255);
     transition: 0.5s ease;
     background-color: #9ca1a7;
 }
