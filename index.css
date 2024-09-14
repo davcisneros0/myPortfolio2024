@@ -442,7 +442,6 @@ nav .mainMenu .closeMenu {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     max-width: 920px;
-    /* height: 80vh; */
     border-radius: 10px;
     z-index: 0; 
 }
